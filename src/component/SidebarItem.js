@@ -22,14 +22,11 @@ const SidebarItem = ({ item }) => {
     )
   } else {
     return (
-      <div className={open ? 'sidebar-item open' : 'sidebar-item'}>
-        <div className='sidebar-tittle'>
-          <span>
-            <i className={item.icon}></i>
+     
+        <a href={item.path || "#"} className='sidebar-item plain'>      
+            {item.icon && <i className={item.icon}></i>}
             {item.title}
-          </span>
-        </div>
-      </div>
+      </a>
     )
   }
 }

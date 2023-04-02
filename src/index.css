@@ -89,3 +89,12 @@ transition: transform.3s;
   .sidebar-item.open > .sidebar-content{
     height: auto;
   }
+  .sidebar-item.plain{
+    color: #fff;
+    text-decoration: none;
+  }
+  .sidebar-item.plain i{
+    width: 1.5em;
+    display: inline-block;
+
+  }

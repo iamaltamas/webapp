@@ -7,6 +7,6 @@ const Sidebar = () => {
     <div className='sidebar'>
       {item.map((item, index) => <SidebarItem key={index} item={item} />)}
     </div>
-  )
+  ) 
 } 
 export default Sidebar
