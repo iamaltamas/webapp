@@ -1,63 +1,13 @@
 [
     {
-        "title": "General",
+        "title": "Vegetable",
         "icon": "bi-gear-fill",
-        "childrens": [
-            {
-                "title": "Home",
-                "icon": "bi-house-fill",
-                "path": "/"
-            },
-            {
-                "title": "About",
-                "icon": "bi-info-circle-fill",
-                "path": "/about"
-            },
-            {
-                "title": "Contact",
-                "icon": "bi-phone-fill",
-                "childrens": [
-                    {
-                        "title": "Facebook",
-                        "icon": "bi-facebook"
-                    },
-                    {
-                        "title": "Twitter",
-                        "icon": "bi-twitter"
-                    },
-                    {
-                        "title": "Instagram",
-                        "icon": "bi-instagram"
-                    }
-                ]
-            },
-            {
-                "title": "FAQ",
-                "icon": "bi-question-circle-fill"
-            }
-        ]
+        "path": "/"
     },
     {
-        "title": "Account",
+        "title": "Fruit",
         "icon": "bi-info-circle-fill",
-        "childrens": [
-            {
-                "title": "Login",
-                "path": "/login"
-            },
-            {
-                "title": "Register",
-                "path": "/register"
-            },
-            {
-                "title": "Forgot Password",
-                "path": "/forgot-password"
-            },
-            {
-                "title": "Reset Password",
-                "path": "/reset-password"
-            }
-        ]
+        "path":"/fruit"
     },
     {
         "title": "Profile",
@@ -100,18 +50,9 @@
         ]
     },
     {
-        "title": "Advance",
+        "title": "Food",
         "icon": "bi-view-list",
-        "childrens": [
-            {
-                "title": "Search",
-                "path": "/search"
-            },
-            {
-                "title": "History",
-                "path": "/history"   
-            }
-        ]
+        "path":"/food"
     },
     {
         "title": "Support",

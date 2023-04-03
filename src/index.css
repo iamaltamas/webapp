@@ -15,14 +15,14 @@ body{
   display: flex;
 }
 .sidebar{
-  width: 100%;
+  width: 30%;
   flex-shrink: 0px;
   background-color: rgba(22,22,22,1);
   height: 100vh;
   overflow: auto;
 }
 .container{
-  flex-grow: 1;
+  /* flex-grow: 1;
   padding: 2em;
   background-image: radial-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .8)), url('../public/banner.jpg');
   background-size: cover;
@@ -30,6 +30,9 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center; */
+  padding: 2em;
+  width: 100%;
   text-align: center;
 }
 .title{
