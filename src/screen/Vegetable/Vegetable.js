@@ -8,7 +8,9 @@ const Vegetable = () => {
           {item.map((item,index)=>{
             return(
                 <div><img className='img' height='150' width='200' src={item.vagetableName}/>
-                <div style={{backgroundColor:'#00aaff',height:20,margin:10}}></div>
+                <div className='card-tittle'>
+                  <h1 className='price'>altamas</h1>
+                </div>
                 </div>
             )
           })}   

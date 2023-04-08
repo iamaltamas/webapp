@@ -14,3 +14,19 @@ padding: 2px;
   border-radius: 5px;
   background-size: cover;
 }
+.card-tittle{
+background-color:#a39da3;
+/* height: 30px; */
+margin-bottom: 10px;
+margin-left: 3px;
+margin-right: 3px;
+border-radius: 2px;
+padding: 6px;
+cursor: pointer;
+}
+.card-tittle :hover{
+  background-color: rgba(22,22,22,1);
+}
+.price{
+  font-size: 16px;
+}
